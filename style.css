@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@1&display=swap');
+
+:root{
+    --font-family: 'Arsenal', sans-serif;
+    --white: rgb(223, 215, 215);
+    --bordo: rgb(99, 5, 5);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: var(--bordo);
+}
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+#title{
+    text-align: center;
+    font-size: 50px;
+    color: var(--white);
+    transition: all ease 0.5s;
+}
+#title:hover{
+    font-size: 60px;
+    transform: translateY(-15px);
+}
+#inputText{
+    width: 300px;
+    height: 46px;
+    border: 3px solid var(--white);
+    border-radius: 10px;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    color: var(--bordo);
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+#addToDo{
+    height: 50px;
+    width: 80px;
+    margin-left: 10px;
+    border: 3px solid var(--white);
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    background: var(--white);
+    color: var(--bordo);
+    border-radius: 10px;
+    text-align: center;
+    transition: all ease 0.5s;
+}
+#addToDo:hover{
+    background-color: var(--bordo);
+    outline: var(--white);
+    color: var(--white);
+}
+
+#clearToDo{
+    height: 50px;
+    width: 80px;
+    margin-left: 10px;
+    border: 3px solid var(--white);
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    background: var(--white);
+    color: var(--bordo);
+    border-radius: 10px;
+    text-align: center;
+    transition: all ease 0.5s;
+}
+#clearToDo:hover{
+    background-color: var(--bordo);
+    outline: var(--white);
+    color: var(--white);
+}
+
+.to-does{
+    margin: 10px;
+    font-size: 25px;
+    color: var(--white);
+    padding: 3px;
+    padding-left: 60px;
+    text-align: left;
+    text-transform: capitalize;
+    transition: all ease 0.5s;
+}
+.to-does:hover{
+    font-size: 30px;
+}
